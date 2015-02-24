@@ -38,7 +38,7 @@ def get_quote():
         temp2 = temp2 + item + "\n" 
     movie[0] = temp2
     quote = movie[randint(0,len(movie))]
-    return movie_name + "<br/>"  + quote.replace("\n", "<br/>")
+    return "<h1>" + movie_name + "</h1>" + "<br/>"  + quote.replace("\n", "<br/>")
 
 
 def clientthread(conn):
